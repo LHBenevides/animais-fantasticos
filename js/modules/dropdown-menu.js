@@ -20,7 +20,7 @@ export default class DropDownMenu {
     });
   }
 
-  // adiciona os eventos ao dropdownmenu 
+  // adiciona os eventos ao dropdownmenu
   addDropDownMenusEvent() {
     this.dropdownMenus.forEach((menu) => {
       this.events.forEach((userEvent) => {
